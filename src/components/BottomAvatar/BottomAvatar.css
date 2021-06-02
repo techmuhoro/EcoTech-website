@@ -1,0 +1,15 @@
+.bottom-avatar {
+  /* border: 1px solid salmon; */
+  width: 100%;
+  height: 250px;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  overflow: hidden;
+}
+.bottom-avatar img {
+  width: 100%;
+  height: 150%;
+}

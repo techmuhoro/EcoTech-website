@@ -1,0 +1,116 @@
+.about {
+  /* background: rgb(251, 251, 196); */
+  background: whitesmoke;
+  width: 100%;
+  padding: 50px 80px;
+  margin: auto;
+  /* border-radius: 10px; */
+  position: relative;
+  /* margin-bottom: 50px; */
+}
+.about .deco-vector {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.about .about-heading {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.about .about-heading > * {
+  display: inline-block;
+}
+.about .about-heading span:last-child {
+  margin-left: 20px;
+}
+.about .about-body {
+  /* border: 1px solid red; */
+  display: flex;
+}
+.about .about-body .right {
+  width: 40%;
+  /* border: 1px solid cyan; */
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 10px;
+}
+.about .about-body .right img {
+  width: 100%;
+  height: 100%;
+}
+.about .about-body .left {
+  width: 60%;
+  padding-top: 40px;
+  /* border: 1px solid red; */
+}
+
+.about .about-body .left h1 {
+  background: linear-gradient(
+    90.94deg,
+    rgba(184, 226, 219, 0.7) 6.96%,
+    #e0ea75 99.55%
+  );
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.about .about-body .left p {
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
+  /* background: #6aa9cc30; */
+  width: 85%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+  color: rgb(48, 50, 56);
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.about .about-button {
+  /* display: inline-block; */
+  /* border: 1px solid red; */
+  width: fit-content;
+  margin: auto;
+  margin-top: 30px;
+}
+@media screen and (max-width: 1280px) {
+  .about {
+    padding: 50px 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .about .about-body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .about-body .left {
+    padding-top: 0px;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about .about-body .left {
+    width: 90%;
+  }
+  .about .about-body .left h1 {
+    font-size: 1.5rem;
+  }
+  .about .about-body .left p {
+    width: 95%;
+  }
+  .about .about-body .right {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .about .about-body .left {
+    width: 100%;
+  }
+  .about {
+    padding: 50px 10px;
+  }
+}

@@ -1,0 +1,15 @@
+.dots {
+  height: 20px;
+  width: 50px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 10px 50px;
+}
+.dots > div {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}

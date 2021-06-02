@@ -1,0 +1,36 @@
+.social-icons {
+  /* border: 2px solid salmon; */
+  position: relative;
+  z-index: 99;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.social-icons .icons-wrapper {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  background: linear-gradient(
+    90.15deg,
+    #ffffff 2.9%,
+    rgba(184, 226, 219, 0.92) 112.26%
+  );
+}
+.social-icons .icons-wrapper img:hover {
+  cursor: pointer;
+}
+.social-icons .social-bottom {
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  background: linear-gradient(
+    90.15deg,
+    #ffffff 2.9%,
+    rgba(184, 226, 219, 0.92) 112.26%
+  );
+}

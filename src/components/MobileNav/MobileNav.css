@@ -1,0 +1,27 @@
+.mobile-nav {
+  height: 60px;
+  display: flex;
+  margin: 0 20px 15px 20px;
+  /* border: 1px solid red; */
+  align-items: center;
+}
+.mobile-nav .mobile-logo {
+  width: calc(100% * 4 / 10);
+  font-size: 1rem;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+.mobile-nav .hamburger {
+  margin-left: auto;
+  cursor: pointer;
+  /* border: 1px solid salmon; */
+}
+.mobile-nav .hamburger span {
+  font-size: 1.9rem;
+  color: rgb(1, 2, 51);
+}
+@media screen and (max-width: 640px) {
+  .mobile-nav .mobile-logo {
+    width: calc(100% * 7 / 10);
+  }
+}

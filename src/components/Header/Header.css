@@ -1,0 +1,15 @@
+#header {
+  padding: 5px 0;
+  /* height: 100vh; */
+  height: auto;
+  width: 100%;
+  background: linear-gradient(
+    111.89deg,
+    rgba(184, 226, 219, 0.85) 7.98%,
+    rgba(224, 234, 117, 0.85) 101.03%
+  );
+  position: relative;
+  /* overflow-x: hidden; */
+  /* margin-bottom: 50px; */
+  /* border: 2px solid red; */
+}

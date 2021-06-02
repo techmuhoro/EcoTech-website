@@ -1,0 +1,16 @@
+.header-decoration .mountains {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  /* background-color: red; */
+}
+.header-decoration .semi-circle {
+  position: absolute;
+  top: 230px;
+  right: -70px;
+}
+@media screen and (max-width: 768px) {
+  .header-decoration {
+    display: none;
+  }
+}
